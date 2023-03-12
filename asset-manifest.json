@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mer-portfolio/static/css/main.fa708b1d.css",
-    "main.js": "/mer-portfolio/static/js/main.93c06d47.js",
+    "main.css": "/mer-portfolio/static/css/main.36d78fd4.css",
+    "main.js": "/mer-portfolio/static/js/main.a3275208.js",
     "static/js/787.8791424d.chunk.js": "/mer-portfolio/static/js/787.8791424d.chunk.js",
     "index.html": "/mer-portfolio/index.html",
-    "main.fa708b1d.css.map": "/mer-portfolio/static/css/main.fa708b1d.css.map",
-    "main.93c06d47.js.map": "/mer-portfolio/static/js/main.93c06d47.js.map",
+    "main.36d78fd4.css.map": "/mer-portfolio/static/css/main.36d78fd4.css.map",
+    "main.a3275208.js.map": "/mer-portfolio/static/js/main.a3275208.js.map",
     "787.8791424d.chunk.js.map": "/mer-portfolio/static/js/787.8791424d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa708b1d.css",
-    "static/js/main.93c06d47.js"
+    "static/css/main.36d78fd4.css",
+    "static/js/main.a3275208.js"
   ]
 }
