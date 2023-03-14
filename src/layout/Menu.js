@@ -3,20 +3,18 @@ import { NavLink } from 'react-router-dom';
 
 function Menu() {
     return (
-        <>
-        <NavLink
-            to="/about"
-            className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
-        }
-    >
-        About
-    </NavLink>
+    <div className="flex gap-2 justify-between m-2">  
+        <h1 className='text-2xl'> Meredith Roberts </h1>
+        <nav className='flex gap-2'>
+            <NavLink to="/about" >
+                About
+            </NavLink>
+            <NavLink to="/mer-portfolio" >
+                Portfolio
+            </NavLink>
+        </nav>
 
-    <NavLink to="/" >
-        Portfolio
-    </NavLink>
-    </>
+    </div>
     )
 }
 
