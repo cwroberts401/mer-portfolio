@@ -8,9 +8,9 @@ function About() {
             </div>
             <div className='col-span-2'>
                 <p>Meredith Roberts is a Designer, Art Director, and Textile Artist. She graduated from the School of Visual Arts with a BFA in Visual and Critial Studies. She resides in Brooklyn, NY where she enjoys long walks in the park with her rescued Greyhound Smokey.</p>
-                <p className='text-sm text-gray-500 pt-5' >She is currently available for freelance projects.</p>
-                <div class='flex gap-2 pt-2'>
-                    <a class='hover:opacity-80' href='mailto:meredithlpadgett@gmail.com'>
+                <div class='flex-col justify-center gap-2 pt-2'>
+                    <p className='text-sm text-gray-500 pt-5' >She is currently available for freelance projects.</p>
+                    <a class='hover:opacity-80 border-black border px-2 rounded-lg' href='mailto:meredithlpadgett@gmail.com'>
                      contact
                     </a>
                 </div>
