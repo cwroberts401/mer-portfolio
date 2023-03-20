@@ -5,7 +5,6 @@ import About from './contact/About';
 import Menu from './layout/Menu';
 import CrochetLace from './portfolio/projects/CrochetLace';
 import Modal from './portfolio/projects/Modal';
-import PalmLace from './portfolio/projects/PalmLace';
 import Print from './portfolio/projects/Print';
 import Accessories from './portfolio/projects/Accessories';
 import Apparel from './portfolio/projects/Apparel';
@@ -13,6 +12,7 @@ import Styling from './portfolio/projects/Styling';
 import Swim from './portfolio/projects/Swim';
 import Lounge from './portfolio/projects/Lounge';
 import Footer from './layout/Footer';
+import DotMesh from './portfolio/projects/DotMesh';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path='about' element={< About />}/>
         <Route path='crochet_lace' element={< CrochetLace />}/>
         <Route path='modal' element={< Modal />}/>
-        <Route path='palm_lace' element={< PalmLace />}/>
+        <Route path='dot_mesh' element={< DotMesh />}/>
         <Route path='print' element={< Print />}/>
         <Route path='accessories' element={< Accessories />}/>
         <Route path='apparel' element={< Apparel />}/>

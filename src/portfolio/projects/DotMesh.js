@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from 'react';
 import Back from "../../layout/BackButton";
 
-const photos = [{photoURL:'modal-01.jpg', alt:'modal collection design', id:'1'}, {photoURL:'modal-02.jpg', alt:'modal collection design', id:'2'}]
+const photos = [{photoURL:'02_dotmesh-01.jpg', alt:'dot mesh collection design', id:'1'}, {photoURL:'04_dotmesh-02.jpg', alt:'dot mesh collection design', id:'2'}]
 
-function Modal() {
+function DotMesh() {
     const [enlarge, setEnlarge] = useState(null)
 
     const handleClick = (e) => {
@@ -14,8 +14,8 @@ function Modal() {
 
     const listImages = photos.map(photo => 
     <div key={photo.id} className={`flex flex-col transition-all ${enlarge === photo.id ?'-mx-10 col-span-4 md:col-span-8':'col-span-4 md:col-span-8'}`}>
-        <img className='' src={process.env.PUBLIC_URL + '/modal/' + photo.photoURL} alt={photo.alt}/>
-        <button id={photo.id} onClick={handleClick} className={`invisible md:visible -mt-4 mr-6 self-end ${enlarge === '0'?'rotate-45':'rotate-0'}`}>+</button>
+        <img className='' src={process.env.PUBLIC_URL + '/dot-mesh/' + photo.photoURL} alt={photo.alt}/>
+        <button id={photo.id} onClick={handleClick} className={`invisible md:visible transition-all -mt-4 mr-6 self-end ${enlarge === photo.id?'rotate-45':'rotate-0'}`}>+</button>
     </div>
     
     );
@@ -32,4 +32,4 @@ function Modal() {
     )
 }
 
-export default Modal
+export default DotMesh
