@@ -13,12 +13,14 @@ import Swim from './portfolio/projects/Swim';
 import Lounge from './portfolio/projects/Lounge';
 import Footer from './layout/Footer';
 import DotMesh from './portfolio/projects/DotMesh';
+import HomePage from './layout/HomePage';
 
 function App() {
   return (
     <div>
       < Menu />
       <Routes>
+        <Route path='/' element={<HomePage/>}/>
         <Route path='mer-portfolio' element={< Portfolio />}/>
         <Route path='about' element={< About />}/>
         <Route path='crochet_lace' element={< CrochetLace />}/>
