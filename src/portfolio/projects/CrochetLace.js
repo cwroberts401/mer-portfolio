@@ -24,7 +24,8 @@ function CrochetLace() {
         <div className='grid xl:grid-col-12 md:grid-cols-8 grid-cols-4 md:gap-4 md:mx-20 gap-4 mx-4 my-10'>
             <div className='col-span-4 md:col-span-8 text-center'>
                 <h2 className='text-2xl'>Crochet Lace Collection for Lively</h2>
-                <p className='text-sm'> this is the longer description that can go below explaing the project </p>
+                <p className='text-sm'> Designed & concepted seasonal lingerie development from sketches through to color palettes & final production. Sourced crochet inspired laces to introduce new textural elements to the line. Designed a bralette & unlined bra to showcase the lace & chose a fresh color palette for Spring.
+Executed on set direction & styling. </p>
             </div>
             {listImages}
             < Back />

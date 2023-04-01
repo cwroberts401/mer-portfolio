@@ -33,7 +33,7 @@ function Portfolio() {
                 <img className='hover:opacity-80 object-cover w-full aspect-[3/2]' src={process.env.PUBLIC_URL + '/img/07-Swim.jpg'} alt='swim'/>
                 <h4 className='text-white absolute hover:bg-black/25 duration-200 hover:opacity-100 opacity-0 inset-0 flex justify-center items-center md:text-xl'> Swim Collection for Lively </h4>
             </Link>
-            <Link className='inactive relative col-span-2' to="/accessories">
+            <Link className='relative col-span-2' to="/accessories">
                 <img className='hover:opacity-80 object-cover w-full aspect-[3/2]' src={process.env.PUBLIC_URL + '/img/08-Accessories.jpg'} alt='accessories'/>
                 <h4 className='text-white absolute hover:bg-black/25 duration-200 hover:opacity-100 opacity-0 inset-0 flex justify-center items-center md:text-xl'> Accessories for Lively </h4>
             </Link>

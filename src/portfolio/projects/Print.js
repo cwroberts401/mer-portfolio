@@ -23,8 +23,8 @@ function Print() {
     return (
         <div className='grid xl:grid-col-12 md:grid-cols-8 grid-cols-4 md:gap-4 md:mx-20 gap-4 mx-4 my-10'>
             <div className='md:col-span-8 col-span-4 text-center'>
-                <h2 className='text-2xl'>Print Designs</h2>
-                <p className='text-sm'> this is the longer description that can go below explaing the project </p>
+                <h2 className='text-2xl'>Print Sourcing & Development</h2>
+                <p className='text-sm'>Led sourcing of seasonal prints for swimwear, lingerie, and loungewear. Responsible for scaling, color edits, and final approval for production.</p>
             </div>
             {listImages}
             < Back />
