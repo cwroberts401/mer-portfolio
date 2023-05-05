@@ -14,15 +14,20 @@ import Lounge from './portfolio/projects/Lounge';
 import Footer from './layout/Footer';
 import DotMesh from './portfolio/projects/DotMesh';
 import HomePage from './layout/HomePage';
+import NotFound from './layout/NotFound';
+import Solutions from './portfolio/projects/Solutions';
 
 function App() {
   return (
     <div>
       < Menu />
       <Routes>
+        <Route path='*' element={< NotFound/>}/>
+
         <Route path='/' element={<HomePage/>}/>
         <Route path='mer-portfolio' element={< Portfolio />}/>
         <Route path='about' element={< About />}/>
+        <Route path='solutions' element={< Solutions/>}/>
         <Route path='crochet_lace' element={< CrochetLace />}/>
         <Route path='modal' element={< Modal />}/>
         <Route path='dot_mesh' element={< DotMesh />}/>
@@ -32,6 +37,7 @@ function App() {
         <Route path='styling' element={< Styling />}/>
         <Route path='swim' element={< Swim />}/>
         <Route path='lounge' element={< Lounge />}/>
+       
       </Routes>
       < Footer />
     </div>

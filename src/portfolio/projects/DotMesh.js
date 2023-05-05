@@ -23,7 +23,7 @@ function DotMesh() {
     return (
         <div className='grid xl:grid-col-12 md:grid-cols-8 grid-cols-4 md:gap-4 md:mx-20 gap-2 mx-4 my-10'>
             <div className='col-span-4 md:col-span-8 text-center'>
-                <h2 className='text-2xl'>Holiday Dot Mesh Collection for Lively</h2>
+                <h2 className='text-2xl'>Holiday Dot Mesh for Lively</h2>
                 <p className='text-sm mb-10'> Designed & concepted seasonal lingerie development from sketches through to color palettes & final production.
 Designed simple polka dot mesh for holiday season, chose warm colors to showcase the texture. </p>
             </div>

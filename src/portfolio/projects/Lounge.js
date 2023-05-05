@@ -23,7 +23,7 @@ function Lounge() {
     return (
         <div className='grid xl:grid-col-12 md:grid-cols-8 grid-cols-4 md:gap-4 md:mx-20 gap-4 mx-4 my-10'>
             <div className='col-span-4 md:col-span-8 text-center'>
-                <h2 className='text-2xl'>Loungewear Collection for Lively</h2>
+                <h2 className='text-2xl'>Loungewear for Lively</h2>
                 <p className='text-sm'>Executed expansion into new loungewear category. Sourced, designed & concepted seasonal lounge development from sketches through to color palettes & final production.</p>
             </div>
             {listImages}
