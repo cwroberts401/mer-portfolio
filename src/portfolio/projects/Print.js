@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Back from "../../layout/BackButton";
 
-const photos = [{photoURL:'print-00.jpg', alt:'print design', id:'1'},{photoURL:'print-01.jpg', alt:'print design', id:'2'},{photoURL:'print-02.jpg', alt:'print design', id:'3'},{photoURL:'print-04.jpg', alt:'print design', id:'5'},{photoURL:'print-05.jpg', alt:'print design', id:'6'},]
+const photos = [{photoURL:'print-00.jpg', alt:'first print design', id:'1'},{photoURL:'print-01.jpg', alt:'print design', id:'2'},{photoURL:'print-02.jpg', alt:'print design', id:'3'},{photoURL:'print-04.jpg', alt:'print design', id:'5'},{photoURL:'print-05.jpg', alt:'print design', id:'6'},]
 
 function Print() {
     const [enlarge, setEnlarge] = useState(null)
